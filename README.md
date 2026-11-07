@@ -13,21 +13,20 @@ The **Exact Search (max 5×5)** option enumerates packing, shipping, and storage
 ## Run the app in VS Code
 
 1. Open the repository folder in VS Code.
-2. Choose **Terminal → New Terminal**.
-3. Create and activate a virtual environment (recommended):
+2. Create and activate a virtual environment (recommended):
 
    ```powershell
    py -m venv .venv
    .\.venv\Scripts\Activate.ps1
    ```
 
-4. Install the app dependencies:
+3. Install the app dependencies:
 
    ```powershell
    py -m pip install -r requirements.txt
    ```
 
-5. Start the app from the repository root:
+4. Start the app from the repository root:
 
    ```powershell
    py -m streamlit run app.py
